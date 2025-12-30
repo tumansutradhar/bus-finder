@@ -1,97 +1,133 @@
-# 🚌 Bus Tracking Platform
+# Bus Finder
 
-A simple *bus tracking platform* that allows users to *register, add buses, and search for available routes*.  
-The application is built using *React* and stores data locally in localStorage (No Backend).  
+A modern, user-friendly bus route search and management platform. Find buses, manage routes, and book your journey with ease.
 
-🚀 *Live Demo:* [Click Here](https://bus-find.vercel.app/)
+## About The Project
 
-## 🌟 Features
+Bus Finder is a comprehensive transportation platform that connects bus operators with passengers. It solves the problem of finding reliable bus routes and managing fleet operations efficiently.
 
-### 🚍 Bus Management
-- *Car owners* can *add new buses* with:
-  - *Bus Name & Number*
-  - *Start & Destination Locations*
-  - *Departure & Arrival Times*
-  - *Stoppages with Timings*
-- 🚫 Owners *cannot edit* buses but can *delete and add new* ones
+**What makes it unique:**
+- Smart search and filtering by route, destination, and availability
+- Complete route management with intermediate stoppages
+- Real-time bus availability tracking
+- User-friendly dashboard for both passengers and operators
+- Responsive design that works on all devices
 
-### 🔎 Search & Tracking
-- Find buses by *Start and Destination locations*
-- Displays *real-time arrival & departure times*
-- Shows *"No buses found"* message if no results match
+## Built With
 
-### 📊 User Dashboard
-- Users can view and manage their added buses
-- Dashboard *auto-updates* when buses are added or removed
+- React 19.0.0
+- Vite 6.1.0
+- Tailwind CSS 4.0.6
+- React Router DOM 7.1.5
+- Swiper
+- localStorage for data persistence
 
-### 📱 Responsive UI
-- Works seamlessly on *desktop, tablets, and mobile*
+## Getting Started
 
-## 🛠 Tech Stack
+Instructions on setting up the project locally.
 
-- *Frontend:* React, Tailwind CSS
-- *Data Storage:* Local Storage (No backend)
+### Prerequisites
 
-## 🔥 Fork & Clone the Repository
+Node.js and npm installed on your system:
 
-### *Step 1: Fork the Repository*  
-1. Click the *"Fork"* button at the top right of the repository page.  
-2. This creates a copy under *your GitHub account*.
-
-### *Step 2: Clone Your Fork*  
-Copy and run this command in your terminal:  
-
-```sh
-git clone https://github.com/YOUR-USERNAME/bus_finder.git
-```
-Navigate to the Project Directory
-
-```sh
-cd bus_finder
-```
-Install Dependencies
-
-```sh
-npm install
+```bash
+npm install npm@latest -g
 ```
 
-Run the following command to install Tailwind CSS v4:
+### Installation
 
-```sh
-npm install tailwindcss @tailwindcss/vite
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/bus-finder.git
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open in your browser
+   ```
+   http://localhost:5173/
+   ```
+
+## Usage
+
+**For Passengers:**
+1. Search for buses by source and destination
+2. View available routes with intermediate stoppages
+3. Compare options and select a bus
+4. Complete booking and get confirmation
+
+**For Operators:**
+1. Register as a bus operator
+2. Add buses with route details
+3. Define intermediate stoppages
+4. Monitor and manage your fleet
+
+```javascript
+// Example: User authentication and dashboard access
+// - Sign up / Login
+// - Create passenger or operator profile
+// - Access personalized dashboard
 ```
 
-To enable navigation between different pages, install React Router DOM:
+## Features
 
-```sh
-npm install react-router-dom
-```
+- User authentication (Passenger & Operator roles)
+- Advanced bus search with multiple filters
+- Route management with intermediate stoppages
+- Real-time bus availability tracking
+- Booking confirmation system
+- User profile management
+- Dashboard for operators to manage fleet
+- Schedule optimization
 
-Run the following command to start the local development server:
+## Roadmap
 
-```sh
-npm run dev
-```
+- [x] Landing page
+- [x] User authentication
+- [x] Bus search functionality
+- [x] Route management
+- [ ] Payment integration
+- [ ] Real-time GPS tracking
+- [ ] Mobile app (React Native)
+- [ ] Admin dashboard for analytics
 
-This will launch your app on http://localhost:5173/
+See the [open issues](https://github.com/your-username/bus-finder/issues) for a full list of proposed features and known issues.
 
-## 👥 Contributors  
+## Contributing
 
-<div align="center">
-    <a href="https://github.com/tumansutradhar/bus_finder/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=tumansutradhar/bus_finder" />
-    </a>
-</div>
+Contributions are what make the open source community amazing. Any contributions you make are **greatly appreciated**.
 
-## ⭐ Give a Star  
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-If you like this project, please consider giving it a ⭐!  
-Your support helps improve and maintain the project.  
+## License
 
-[![Star](https://img.shields.io/github/stars/tumansutradhar/bus_finder?style=social)](https://github.com/tumansutradhar/bus_finder)
+Distributed under the MIT License. See [LICENSE.md](LICENSE.md) for more information.
 
-## 📩 Contact  
+## Contact
 
-For any queries or issues, feel free to reach out:  
+Tuman Sutradhar
 
-🔗 *GitHub Issues:* [Open an issue](https://github.com/tumansutradhar/bus_finder/issues)
+- GitHub: [@tumansutradhar](https://github.com/tumansutradhar)
+- Email: connect.tuman@gmail.com
+- LinkedIn: [Tuman Sutradhar](https://www.linkedin.com/in/tumansutradhar/)
+
+Project Link: [https://github.com/tumansutradhar/bus-finder](https://github.com/tumansutradhar/bus-finder)
+
+## Acknowledgments
+
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Swiper](https://swiperjs.com/)
